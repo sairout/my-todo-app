@@ -3,6 +3,8 @@ import './Footer.css';
 
 export default function Footer(){
     return (
+        <>
+        <br /><br /><br />
     <footer id='footer' className="footer mt-auto py-3 bg-dark">
         <div className="container">
             <span className="text-muted">© 2022 Company, Inc. All rights reserved.</span>
@@ -13,5 +15,6 @@ export default function Footer(){
             </ul>
         </div>
     </footer>
+    </>
     );
 }

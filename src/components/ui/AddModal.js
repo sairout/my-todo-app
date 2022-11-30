@@ -3,7 +3,7 @@ import './Modal.css';
 function AddModal(props) {
     return (
         <div className="bd-example bd-example-modal">
-            <div className="modal" tabindex="-1" role="dialog">
+            <div className="modal" tabIndex="-1" role="dialog">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -14,13 +14,13 @@ function AddModal(props) {
                         </div>
                         <div className="modal-body">
                             <form>
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                    <input type="text" class="form-control" id="recipient-name" />
+                                <div className="form-group">
+                                    <label htmlFor="recipient-name" className="col-form-label">Recipient:</label>
+                                    <input type="text" className="form-control" id="recipient-name" />
                                 </div>
-                                <div class="form-group">
-                                    <label for="message-text" class="col-form-label">Message:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
+                                <div className="form-group">
+                                    <label htmlFor="message-text" className="col-form-label">Message:</label>
+                                    <textarea className="form-control" id="message-text"></textarea>
                                 </div>
                             </form>
                         </div>
